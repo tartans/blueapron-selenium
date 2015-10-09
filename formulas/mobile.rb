@@ -51,11 +51,36 @@ module Formulas
       wait_for (5) { displayed? (KEYPAD) }
     end
 
-    def click_keypad_key
+    def click_keypad_key ()
       click_on KEYPAY_KEY_0
       click_on KEYPAY_KEY_0
       click_on KEYPAY_KEY_0
       click_on KEYPAY_KEY_0
+    end
+
+    def click_key (key)
+      case key
+        when 1
+          click_on KEYPAY_KEY_1
+        when 2
+          click_on KEYPAY_KEY_2
+        when 3
+          click_on KEYPAY_KEY_3
+        when 4
+          click_on KEYPAY_KEY_4
+        when 5
+          click_on KEYPAY_KEY_5
+        when 6
+          click_on KEYPAY_KEY_6
+        when 7
+          click_on KEYPAY_KEY_7
+        when 8
+          click_on KEYPAY_KEY_8
+        when 9
+          click_on KEYPAY_KEY_9
+        when 0
+          click_on KEYPAY_KEY_0
+      end
     end
 
     def nav_title_text
