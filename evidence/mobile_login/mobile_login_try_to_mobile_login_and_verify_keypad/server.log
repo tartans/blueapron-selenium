@@ -1,0 +1,94 @@
+Oct 01, 2015 6:10:55 PM org.openqa.grid.selenium.GridLauncher main
+INFO: Launching a standalone server
+Setting system property webdriver.firefox.logfile to c:\log\firefox.log
+Setting system property webdriver.server.session.timeout to 0
+18:10:56.015 INFO - Java: Oracle Corporation 24.45-b08
+18:10:56.015 INFO - OS: Windows 2003 5.2 x86
+18:10:56.031 INFO - v2.32.0, with Core v2.32.0. Built from revision 6c40c18
+18:10:56.296 INFO - RemoteWebDriver instances should connect to: http://127.0.0.1:4443/wd/hub
+18:10:56.296 INFO - Version Jetty/5.1.x
+18:10:56.296 INFO - Started HttpContext[/selenium-server/driver,/selenium-server/driver]
+18:10:56.296 INFO - Started HttpContext[/selenium-server,/selenium-server]
+18:10:56.296 INFO - Started HttpContext[/,/]
+18:10:56.375 INFO - Started org.openqa.jetty.jetty.servlet.ServletHandler@1db8f3a
+18:10:56.375 INFO - Started HttpContext[/wd,/wd]
+18:10:56.375 INFO - Started SocketListener on 0.0.0.0:4443
+18:10:56.375 INFO - Started org.openqa.jetty.jetty.Server@1f796d0
+18:10:56.984 INFO - Executing: [new session: {port=80, host=ondemand.saucelabs.com, browserName=firefox, local_application_port=3001, browser_url=http://saucelabs.com, webdriver.remote.quietExceptions=true, start_tunnel=true, capture_traffic=false, client_version=Ruby: ruby 2.1.6 (x86_64-darw...}] at URL: /session)
+18:11:02.515 INFO - Done: /session
+18:11:02.703 INFO - Executing: [execute script: return screen.width, []] at URL: /session/8ae54c48-01a5-4162-970a-d5be66467bb5/execute)
+18:11:02.718 INFO - Done: /session/8ae54c48-01a5-4162-970a-d5be66467bb5/execute
+18:11:02.734 INFO - Executing: [execute script: return screen.height, []] at URL: /session/8ae54c48-01a5-4162-970a-d5be66467bb5/execute)
+18:11:02.750 INFO - Done: /session/8ae54c48-01a5-4162-970a-d5be66467bb5/execute
+18:11:02.765 INFO - Executing: [set window position] at URL: /session/8ae54c48-01a5-4162-970a-d5be66467bb5/window/current/position)
+18:11:02.781 INFO - Done: /session/8ae54c48-01a5-4162-970a-d5be66467bb5/window/current/position
+18:11:02.796 INFO - Executing: [set window size] at URL: /session/8ae54c48-01a5-4162-970a-d5be66467bb5/window/current/size)
+18:11:02.796 INFO - Done: /session/8ae54c48-01a5-4162-970a-d5be66467bb5/window/current/size
+18:11:02.828 INFO - Executing: [maximise window] at URL: /session/8ae54c48-01a5-4162-970a-d5be66467bb5/window/current/maximize)
+18:11:02.843 INFO - Done: /session/8ae54c48-01a5-4162-970a-d5be66467bb5/window/current/maximize
+18:11:02.875 INFO - Executing: [get window handles] at URL: /session/8ae54c48-01a5-4162-970a-d5be66467bb5/window_handles)
+18:11:02.890 INFO - Done: /session/8ae54c48-01a5-4162-970a-d5be66467bb5/window_handles
+18:11:03.062 INFO - Executing: org.openqa.selenium.remote.server.handler.GetSessionCapabilities@337526 at URL: /session/8ae54c48-01a5-4162-970a-d5be66467bb5)
+18:11:03.062 INFO - Done: /session/8ae54c48-01a5-4162-970a-d5be66467bb5
+18:11:03.187 INFO - Executing: [get: https://wms-staging-2.blueapron.com/mobile] at URL: /session/8ae54c48-01a5-4162-970a-d5be66467bb5/url)
+18:11:12.546 INFO - Done: /session/8ae54c48-01a5-4162-970a-d5be66467bb5/url
+18:11:12.828 INFO - Executing: [get title] at URL: /session/8ae54c48-01a5-4162-970a-d5be66467bb5/title)
+18:11:12.828 INFO - Done: /session/8ae54c48-01a5-4162-970a-d5be66467bb5/title
+18:11:12.937 INFO - Executing: [find element: By.selector: .ember-text-field] at URL: /session/8ae54c48-01a5-4162-970a-d5be66467bb5/element)
+18:11:13.000 INFO - Done: /session/8ae54c48-01a5-4162-970a-d5be66467bb5/element
+18:11:13.109 INFO - Executing: [send keys: 0 org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement@a686f80a, [3635]] at URL: /session/8ae54c48-01a5-4162-970a-d5be66467bb5/element/0/value)
+18:11:13.218 INFO - Done: /session/8ae54c48-01a5-4162-970a-d5be66467bb5/element/0/value
+18:11:13.593 INFO - Executing: [find element: By.selector: .btn] at URL: /session/8ae54c48-01a5-4162-970a-d5be66467bb5/element)
+18:11:13.609 INFO - Done: /session/8ae54c48-01a5-4162-970a-d5be66467bb5/element
+18:11:13.718 INFO - Executing: [click: 1 org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement@477c57ec] at URL: /session/8ae54c48-01a5-4162-970a-d5be66467bb5/element/1/click)
+18:11:13.968 INFO - Done: /session/8ae54c48-01a5-4162-970a-d5be66467bb5/element/1/click
+18:11:14.421 INFO - Executing: [find element: By.selector: .ember-text-field] at URL: /session/8ae54c48-01a5-4162-970a-d5be66467bb5/element)
+18:11:14.421 INFO - Done: /session/8ae54c48-01a5-4162-970a-d5be66467bb5/element
+18:11:14.546 INFO - Executing: [is displayed: 0 org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement@a686f80a] at URL: /session/8ae54c48-01a5-4162-970a-d5be66467bb5/element/0/displayed)
+18:11:14.718 INFO - Done: /session/8ae54c48-01a5-4162-970a-d5be66467bb5/element/0/displayed
+18:11:14.843 INFO - Executing: [find element: By.selector: .ember-text-field] at URL: /session/8ae54c48-01a5-4162-970a-d5be66467bb5/element)
+18:11:14.859 INFO - Done: /session/8ae54c48-01a5-4162-970a-d5be66467bb5/element
+18:11:14.968 INFO - Executing: [send keys: 2 org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement@466304b9, [3635]] at URL: /session/8ae54c48-01a5-4162-970a-d5be66467bb5/element/2/value)
+18:11:15.078 INFO - Done: /session/8ae54c48-01a5-4162-970a-d5be66467bb5/element/2/value
+18:11:15.437 INFO - Executing: [find element: By.selector: .btn] at URL: /session/8ae54c48-01a5-4162-970a-d5be66467bb5/element)
+18:11:15.437 INFO - Done: /session/8ae54c48-01a5-4162-970a-d5be66467bb5/element
+18:11:15.562 INFO - Executing: [click: 3 org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement@32efb4d8] at URL: /session/8ae54c48-01a5-4162-970a-d5be66467bb5/element/3/click)
+18:11:15.734 INFO - Done: /session/8ae54c48-01a5-4162-970a-d5be66467bb5/element/3/click
+18:11:16.265 INFO - Executing: [find element: By.selector: .keypad] at URL: /session/8ae54c48-01a5-4162-970a-d5be66467bb5/element)
+18:11:16.265 INFO - Done: /session/8ae54c48-01a5-4162-970a-d5be66467bb5/element
+18:11:16.375 INFO - Executing: [is displayed: 4 org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement@6171799f] at URL: /session/8ae54c48-01a5-4162-970a-d5be66467bb5/element/4/displayed)
+18:11:16.390 INFO - Done: /session/8ae54c48-01a5-4162-970a-d5be66467bb5/element/4/displayed
+18:11:16.515 INFO - Executing: [find elements: By.selector: .keypad-key] at URL: /session/8ae54c48-01a5-4162-970a-d5be66467bb5/elements)
+18:11:16.531 INFO - Done: /session/8ae54c48-01a5-4162-970a-d5be66467bb5/elements
+18:11:16.656 INFO - Executing: [get text: 5 org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement@c3288] at URL: /session/8ae54c48-01a5-4162-970a-d5be66467bb5/element/5/text)
+18:11:16.671 INFO - Done: /session/8ae54c48-01a5-4162-970a-d5be66467bb5/element/5/text
+18:11:16.781 INFO - Executing: [get text: 6 org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement@d7f54bf8] at URL: /session/8ae54c48-01a5-4162-970a-d5be66467bb5/element/6/text)
+18:11:16.796 INFO - Done: /session/8ae54c48-01a5-4162-970a-d5be66467bb5/element/6/text
+18:11:16.906 INFO - Executing: [get text: 7 org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement@98989bad] at URL: /session/8ae54c48-01a5-4162-970a-d5be66467bb5/element/7/text)
+18:11:16.921 INFO - Done: /session/8ae54c48-01a5-4162-970a-d5be66467bb5/element/7/text
+18:11:17.031 INFO - Executing: [get text: 8 org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement@795f12f6] at URL: /session/8ae54c48-01a5-4162-970a-d5be66467bb5/element/8/text)
+18:11:17.062 INFO - Done: /session/8ae54c48-01a5-4162-970a-d5be66467bb5/element/8/text
+18:11:17.171 INFO - Executing: [get text: 9 org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement@616c94af] at URL: /session/8ae54c48-01a5-4162-970a-d5be66467bb5/element/9/text)
+18:11:17.187 INFO - Done: /session/8ae54c48-01a5-4162-970a-d5be66467bb5/element/9/text
+18:11:17.312 INFO - Executing: [get text: 10 org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement@f3f59bb4] at URL: /session/8ae54c48-01a5-4162-970a-d5be66467bb5/element/10/text)
+18:11:17.328 INFO - Done: /session/8ae54c48-01a5-4162-970a-d5be66467bb5/element/10/text
+18:11:17.468 INFO - Executing: [get text: 11 org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement@30b9a3b8] at URL: /session/8ae54c48-01a5-4162-970a-d5be66467bb5/element/11/text)
+18:11:17.484 INFO - Done: /session/8ae54c48-01a5-4162-970a-d5be66467bb5/element/11/text
+18:11:17.593 INFO - Executing: [get text: 12 org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement@a792f259] at URL: /session/8ae54c48-01a5-4162-970a-d5be66467bb5/element/12/text)
+18:11:17.593 INFO - Done: /session/8ae54c48-01a5-4162-970a-d5be66467bb5/element/12/text
+18:11:17.718 INFO - Executing: [get text: 13 org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement@2cc90b9d] at URL: /session/8ae54c48-01a5-4162-970a-d5be66467bb5/element/13/text)
+18:11:17.734 INFO - Done: /session/8ae54c48-01a5-4162-970a-d5be66467bb5/element/13/text
+18:11:17.843 INFO - Executing: [get text: 14 org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement@846f6954] at URL: /session/8ae54c48-01a5-4162-970a-d5be66467bb5/element/14/text)
+18:11:17.859 INFO - Done: /session/8ae54c48-01a5-4162-970a-d5be66467bb5/element/14/text
+18:11:17.968 INFO - Executing: [get text: 14 org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement@846f6954] at URL: /session/8ae54c48-01a5-4162-970a-d5be66467bb5/element/14/text)
+18:11:17.984 INFO - Done: /session/8ae54c48-01a5-4162-970a-d5be66467bb5/element/14/text
+18:11:18.093 INFO - Executing: [find elements: By.selector: .keypad-key] at URL: /session/8ae54c48-01a5-4162-970a-d5be66467bb5/elements)
+18:11:18.109 INFO - Done: /session/8ae54c48-01a5-4162-970a-d5be66467bb5/elements
+18:11:18.234 INFO - Executing: [get text: 5 org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement@c3288] at URL: /session/8ae54c48-01a5-4162-970a-d5be66467bb5/element/5/text)
+18:11:18.234 INFO - Done: /session/8ae54c48-01a5-4162-970a-d5be66467bb5/element/5/text
+18:11:18.343 INFO - Executing: [get window handles] at URL: /session/8ae54c48-01a5-4162-970a-d5be66467bb5/window_handles)
+18:11:18.359 INFO - Done: /session/8ae54c48-01a5-4162-970a-d5be66467bb5/window_handles
+18:11:18.468 INFO - Executing: [switch to window: {bdf2f2f8-d391-426d-8770-51bbbf563cb7}] at URL: /session/8ae54c48-01a5-4162-970a-d5be66467bb5/window)
+18:11:18.468 INFO - Done: /session/8ae54c48-01a5-4162-970a-d5be66467bb5/window
+18:11:18.578 INFO - Executing: [get page source] at URL: /session/8ae54c48-01a5-4162-970a-d5be66467bb5/source)
+18:11:18.578 INFO - Done: /session/8ae54c48-01a5-4162-970a-d5be66467bb5/source

@@ -1,0 +1,38 @@
+# Default Chemisty Kit Configuration File
+
+base_url: http://localhost:5000 #change to the base url of your system under test
+retries_on_failure: 1 #defaults to 1, set the number of times a test should be retried on failure
+concurrency: 1
+selenium_connect:
+    #Setup & Debugging
+    jar:
+
+    #Where to run your tests
+#    host: 'localhost'
+#    port: #set to 4444 by default
+
+    #Browser & Host
+    browser:      'chrome'
+    browser_path: '/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome'
+    profile_path:
+    profile_name:
+
+#    host:             'saucelabs'
+#    browser:          'firefox'
+#    browser_version:  '17'
+#    sauce_username:   'testing_arrgyle'
+#    sauce_api_key:    'ab7a6e17-16df-42d2-9ef6-c8d2539cc38a'
+
+
+# Uncomment the below to set up a basic authentication call for your tests
+# basic_auth:
+#   username: 'blueapron'
+#   password: 'tarragon'
+#   http_path: '/basic'
+#   https_path: '/secure'
+
+# Uncomment the below if you use optimizely in your test environment and want to opt out of it
+# split_testing:
+#     provider: 'optimizely'
+#     opt_out: true
+

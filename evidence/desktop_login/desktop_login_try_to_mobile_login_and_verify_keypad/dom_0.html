@@ -1,0 +1,201 @@
+<!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml"><head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Blueradish</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+
+    <base href="/" />
+<meta name="blueradish/config/environment" content="%7B%22modulePrefix%22%3A%22blueradish%22%2C%22podModulePrefix%22%3A%22blueradish/pods%22%2C%22environment%22%3A%22development%22%2C%22baseURL%22%3A%22/%22%2C%22locationType%22%3A%22auto%22%2C%22EmberENV%22%3A%7B%22FEATURES%22%3A%7B%7D%7D%2C%22APP%22%3A%7B%22gitInfo%22%3A%7B%22sha%22%3A%2273334b122be2c1580c4372ab52f816376449c2e7%22%2C%22abbreviatedSha%22%3A%2273334b122b%22%2C%22branch%22%3A%22master%22%2C%22tag%22%3Anull%7D%2C%22disableMessageBus%22%3Atrue%2C%22disablePing%22%3Atrue%2C%22name%22%3A%22blueradish%22%2C%22version%22%3A%220.0.0.73334b12%22%7D%2C%22adapterNamespace%22%3A%22/api%22%2C%22animationDuration%22%3A250%2C%22exportApplicationGlobal%22%3Atrue%2C%22contentSecurityPolicyHeader%22%3A%22Content-Security-Policy-Report-Only%22%2C%22contentSecurityPolicy%22%3A%7B%22default-src%22%3A%22%27none%27%22%2C%22script-src%22%3A%22%27self%27%20%27unsafe-eval%27%22%2C%22font-src%22%3A%22%27self%27%22%2C%22connect-src%22%3A%22%27self%27%22%2C%22img-src%22%3A%22%27self%27%22%2C%22style-src%22%3A%22%27self%27%22%2C%22media-src%22%3A%22%27self%27%22%7D%7D" />
+
+    <link href="//fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet" type="text/css" />
+    <link href="//fonts.googleapis.com/css?family=Signika:700" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="http://localhost:4201/assets/vendor.css" />
+    <link rel="stylesheet" href="http://localhost:4201/assets/app.css" />
+
+    
+  </head>
+  <body class="ember-application">
+    
+
+    <script src="http://localhost:4201/assets/vendor.js"></script>
+    <script src="http://localhost:4201/assets/blueradish.js"></script>
+    <script>
+      // Handle Scans from SwipeTrack
+      //'bar' is the retrieved Barcode
+      //'type' is the type of barcode (number code)
+      //'sid' is the unique SwipeTrack Device ID code
+      function onScanAppBarCodeData(bar, type, sid) {
+        // Add the scanner ID as a request header to allow the server to more
+        // easily identify the device.
+        Ember.$.ajaxPrefilter(function(options, originalOptions, xhr) {
+          xhr.setRequestHeader('X-Swipetrack-Scanner-ID', sid);
+        });
+
+        Ember.run.debounce(
+          Ember.Instrumentation,
+          Ember.Instrumentation.instrument,
+          'swipeTrack.scanOccurred',
+          { bar: bar, type: type, sid: sid },
+          500
+        );
+
+        return true;
+      }
+    </script>
+
+    
+  
+
+<div id="ember632" class="ember-view"><div class="header">
+  <div class="container">
+    <div id="ember654" class="ember-view"><!----></div>
+
+    <ul class="logo">
+      <li><span class="logo__icon"></span></li>
+      <li>Blue Radish</li>
+    </ul><!--/logo-->
+
+<a id="ember681" class="ember-view header__right" href="/mobile/employees/2905">        <i class="header__user"></i>
+</a>  </div><!--/container-->
+</div><!--/header-->
+
+  <div class="nav">
+    <div class="container">
+          <span class="nav__back" data-ember-action="711">Facilities</span>
+
+      <span class="nav__title">Richmond</span>
+
+<!---->    </div><!--/container-->
+  </div><!--/nav-->
+
+<div id="ember736" class="ember-view liquid-container"><div id="ember762" class="ember-view liquid-child" style="top: 0px; left: 0px;"><div class="page-head">
+  <div class="container">
+    Choose a task to perform.
+  </div><!--/container-->
+</div><!--/page-head-->
+
+<ul class="item-list">
+    <li data-role="inventory-control" data-ember-action="781"><div id="ember782" class="ember-view"><div class="item-content">
+  <div class="v-table">
+<!---->
+<!---->
+    <div class="v-table__cell">
+        <span class="item-content__left" style="width: 100%;">
+          <strong>Inventory Control &amp; Stockkeeping</strong>
+        </span>
+
+<!---->    </div><!--/v-table__cell-->
+
+    <div class="txt-right v-table__cell">
+<!---->
+<!---->
+        <i class="fa fa-chevron-right"></i>
+
+<!---->
+<!---->    </div><!--/v-table__cell-->
+  </div><!--/v-table-->
+</div><!--/item-content-->
+</div></li>
+
+  <li data-role="pack-line" data-ember-action="774"><div id="ember779" class="ember-view"><div class="item-content">
+  <div class="v-table">
+<!---->
+<!---->
+    <div class="v-table__cell">
+        <span class="item-content__left" style="width: 100%;">
+          <strong>Manage Pack Lines</strong>
+        </span>
+
+<!---->    </div><!--/v-table__cell-->
+
+    <div class="txt-right v-table__cell">
+<!---->
+<!---->
+        <i class="fa fa-chevron-right"></i>
+
+<!---->
+<!---->    </div><!--/v-table__cell-->
+  </div><!--/v-table-->
+</div><!--/item-content-->
+</div></li>
+
+    <li data-role="checkout-inventory" data-ember-action="804"><div id="ember805" class="ember-view"><div class="item-content">
+  <div class="v-table">
+<!---->
+<!---->
+    <div class="v-table__cell">
+        <span class="item-content__left" style="width: 100%;">
+          <strong>Check Out Inventory</strong>
+        </span>
+
+<!---->    </div><!--/v-table__cell-->
+
+    <div class="txt-right v-table__cell">
+<!---->
+<!---->
+        <i class="fa fa-chevron-right"></i>
+
+<!---->
+<!---->    </div><!--/v-table__cell-->
+  </div><!--/v-table-->
+</div><!--/item-content-->
+</div></li>
+    <li data-role="quality-control" data-ember-action="806"><div id="ember807" class="ember-view"><div class="item-content">
+  <div class="v-table">
+<!---->
+<!---->
+    <div class="v-table__cell">
+        <span class="item-content__left" style="width: 100%;">
+          <strong>Quality Control</strong>
+        </span>
+
+<!---->    </div><!--/v-table__cell-->
+
+    <div class="txt-right v-table__cell">
+<!---->
+<!---->
+        <i class="fa fa-chevron-right"></i>
+
+<!---->
+<!---->    </div><!--/v-table__cell-->
+  </div><!--/v-table-->
+</div><!--/item-content-->
+</div></li>
+</ul><!--/item-list-->
+</div></div>
+
+<div class="flash-message" data-ember-action="676">
+  <div class="v-table">
+    <div class="v-table__cell">
+      <div class="container">
+        <div class="flash-message__text"></div>
+      </div><!--/container-->
+    </div><!--/v-table__cell-->
+  </div><!--/v-table-->
+</div><!--/flash-message-->
+
+<div class="flash-overlay">
+  <div class="v-table">
+    <div class="v-table__cell">
+      <div class="container">
+        <div class="flash-overlay__text"></div>
+        <div class="flash-overlay__message"></div>
+        <div class="flash-overlay__location"></div>
+      </div><!--/container-->
+    </div><!--/v-table__cell-->
+  </div><!--/v-table-->
+</div><!--/flash-overlay-->
+
+<div class="network-error  ">
+  <div class="v-table">
+    <div class="v-table__cell">
+      <div class="network-error__text">
+        <strong>Unable to connect</strong>
+        <br />
+          Will automatically retry in 15 seconds.
+      </div><!--/network-error-->
+    </div><!--/v-table__cell-->
+  </div><!--/v-table-->
+</div><!--/network-overlay-->
+</div></body></html>

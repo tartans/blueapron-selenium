@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites errors="0" failures="0" skipped="0" tests="1" time="20.845452" timestamp="2015-10-06T13:16:33-04:00">
+  <testsuite name="desktop_login" tests="1" errors="0" failures="0" skipped="0">
+    <properties/>
+    <testcase name="desktop_login_try_to_mobile_login_and_verify_keypad" time="18.963376">
+    </testcase>
+  </testsuite>
+</testsuites>

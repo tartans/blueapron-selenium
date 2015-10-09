@@ -1,0 +1,108 @@
+Oct 05, 2015 2:01:48 PM org.openqa.grid.selenium.GridLauncher main
+INFO: Launching a standalone server
+Setting system property webdriver.chrome.driver to /Users/meng-yangchiang/.rbenv/versions/2.1.6/lib/ruby/gems/2.1.0/gems/selenium-connect-3.7.1/lib/selenium_connect/../../bin/chromedriver
+Setting system property webdriver.chrome.logfile to /Users/meng-yangchiang/GithubHome/blueapron-selenium/evidence/desktop_login/desktop_login_try_to_desktop_login/chrome.log
+14:01:48.321 INFO - Java: Oracle Corporation 25.60-b23
+14:01:48.322 INFO - OS: Mac OS X 10.10.5 x86_64
+14:01:48.330 INFO - v2.41.0, with Core v2.41.0. Built from revision 3192d8a
+14:01:48.419 INFO - Default driver org.openqa.selenium.ie.InternetExplorerDriver registration is skipped: registration capabilities Capabilities [{ensureCleanSession=true, browserName=internet explorer, version=, platform=WINDOWS}] does not match with current platform: MAC
+14:01:48.454 INFO - RemoteWebDriver instances should connect to: http://127.0.0.1:4444/wd/hub
+14:01:48.455 INFO - Version Jetty/5.1.x
+14:01:48.457 INFO - Started HttpContext[/selenium-server,/selenium-server]
+14:01:48.482 INFO - Started org.openqa.jetty.jetty.servlet.ServletHandler@546a03af
+14:01:48.482 INFO - Started HttpContext[/wd,/wd]
+14:01:48.482 INFO - Started HttpContext[/selenium-server/driver,/selenium-server/driver]
+14:01:48.483 INFO - Started HttpContext[/,/]
+14:01:48.487 INFO - Started SocketListener on 0.0.0.0:4444
+14:01:48.488 INFO - Started org.openqa.jetty.jetty.Server@4edde6e5
+14:01:48.801 INFO - Executing: [new session: Capabilities [{rotatable=false, nativeEvents=false, chrome.switches=[--user-data-dir=/Users/meng-yangchiang/GithubHome/blueapron-selenium/evidence/desktop_login/desktop_login_try_to_desktop_login/chrome, --enable-logging, --v=1, --log-net-log=/Users/meng-yangchiang/GithubHome/blueapron-selenium/evidence/desktop_login/desktop_login_try_to_desktop_login/chrome/net_log.log, --net-log-level=0], browserName=chrome, takesScreenshot=false, javascriptEnabled=true, version=, platform=ANY, cssSelectorsEnabled=true}]] at URL: /session)
+14:01:48.809 INFO - Creating a new session for Capabilities [{rotatable=false, nativeEvents=false, chrome.switches=[--user-data-dir=/Users/meng-yangchiang/GithubHome/blueapron-selenium/evidence/desktop_login/desktop_login_try_to_desktop_login/chrome, --enable-logging, --v=1, --log-net-log=/Users/meng-yangchiang/GithubHome/blueapron-selenium/evidence/desktop_login/desktop_login_try_to_desktop_login/chrome/net_log.log, --net-log-level=0], browserName=chrome, takesScreenshot=false, javascriptEnabled=true, version=, platform=ANY, cssSelectorsEnabled=true}]
+Starting ChromeDriver (v2.9.248307) on port 9735
+14:01:50.912 INFO - Done: /session
+14:01:50.924 INFO - Executing: [get: https://wms-staging-2.blueapron.com/sessions/new] at URL: /session/29fe0bd9-5b73-4a74-b597-7dcd8535bc21/url)
+14:01:56.263 INFO - Done: /session/29fe0bd9-5b73-4a74-b597-7dcd8535bc21/url
+14:01:56.268 INFO - Executing: [find element: By.selector: .sign-in-form] at URL: /session/29fe0bd9-5b73-4a74-b597-7dcd8535bc21/element)
+14:01:56.297 INFO - Done: /session/29fe0bd9-5b73-4a74-b597-7dcd8535bc21/element
+14:01:56.305 INFO - Executing: [is displayed: 0 [[ChromeDriver: chrome on MAC (3159d315d1e3fba1e6d88e63e2cee4e5)] -> css selector: .sign-in-form]] at URL: /session/29fe0bd9-5b73-4a74-b597-7dcd8535bc21/element/0/displayed)
+14:01:56.329 INFO - Done: /session/29fe0bd9-5b73-4a74-b597-7dcd8535bc21/element/0/displayed
+14:01:56.332 INFO - Executing: [find element: By.selector: [type="text"]] at URL: /session/29fe0bd9-5b73-4a74-b597-7dcd8535bc21/element)
+14:01:56.347 INFO - Done: /session/29fe0bd9-5b73-4a74-b597-7dcd8535bc21/element
+14:01:56.351 INFO - Executing: [send keys: 1 [[ChromeDriver: chrome on MAC (3159d315d1e3fba1e6d88e63e2cee4e5)] -> css selector: [type="text"]], [leo.rogers@blueapron.com]] at URL: /session/29fe0bd9-5b73-4a74-b597-7dcd8535bc21/element/1/value)
+14:01:56.440 INFO - Done: /session/29fe0bd9-5b73-4a74-b597-7dcd8535bc21/element/1/value
+14:01:56.443 INFO - Executing: [find element: By.selector: [type*="password"]] at URL: /session/29fe0bd9-5b73-4a74-b597-7dcd8535bc21/element)
+14:01:56.541 INFO - Done: /session/29fe0bd9-5b73-4a74-b597-7dcd8535bc21/element
+14:01:56.546 INFO - Executing: [send keys: 2 [[ChromeDriver: chrome on MAC (3159d315d1e3fba1e6d88e63e2cee4e5)] -> css selector: [type*="password"]], [larba334]] at URL: /session/29fe0bd9-5b73-4a74-b597-7dcd8535bc21/element/2/value)
+14:01:56.608 INFO - Done: /session/29fe0bd9-5b73-4a74-b597-7dcd8535bc21/element/2/value
+14:01:56.615 INFO - Executing: [find element: By.selector: .btn.mr-10] at URL: /session/29fe0bd9-5b73-4a74-b597-7dcd8535bc21/element)
+14:01:56.642 INFO - Done: /session/29fe0bd9-5b73-4a74-b597-7dcd8535bc21/element
+14:01:56.645 INFO - Executing: [click: 3 [[ChromeDriver: chrome on MAC (3159d315d1e3fba1e6d88e63e2cee4e5)] -> css selector: .btn.mr-10]] at URL: /session/29fe0bd9-5b73-4a74-b597-7dcd8535bc21/element/3/click)
+14:01:56.680 INFO - Done: /session/29fe0bd9-5b73-4a74-b597-7dcd8535bc21/element/3/click
+14:01:56.685 INFO - Executing: [find element: By.selector: .sign-in-form] at URL: /session/29fe0bd9-5b73-4a74-b597-7dcd8535bc21/element)
+14:01:56.710 INFO - Done: /session/29fe0bd9-5b73-4a74-b597-7dcd8535bc21/element
+14:01:56.713 INFO - Executing: [is displayed: 0 [[ChromeDriver: chrome on MAC (3159d315d1e3fba1e6d88e63e2cee4e5)] -> css selector: .sign-in-form]] at URL: /session/29fe0bd9-5b73-4a74-b597-7dcd8535bc21/element/0/displayed)
+14:01:56.730 INFO - Done: /session/29fe0bd9-5b73-4a74-b597-7dcd8535bc21/element/0/displayed
+14:01:56.939 INFO - Executing: [find element: By.selector: .sign-in-form] at URL: /session/29fe0bd9-5b73-4a74-b597-7dcd8535bc21/element)
+14:01:57.503 WARN - Exception thrown
+org.openqa.selenium.NoSuchElementException: no such element
+  (Session info: chrome=47.0.2522.0)
+  (Driver info: chromedriver=2.9.248307,platform=Mac OS X 10.10.5 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 11 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.41.0', revision: '3192d8a', time: '2014-03-27 17:17:32'
+System info: host: 'meng-yang.chiang-MacBook-Air', ip: '172.16.11.51', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.5', java.version: '1.8.0_60'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, chrome={userDataDir=/var/folders/sp/pst9qs5d3gl4pxjpqhfkkh840000gn/T/.org.chromium.Chromium.DsZ5qa}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, version=47.0.2522.0, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 3159d315d1e3fba1e6d88e63e2cee4e5
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:193)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:595)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:348)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:437)
+	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:426)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:340)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$2.invoke(EventFiringWebDriver.java:101)
+	at com.sun.proxy.$Proxy2.findElement(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:184)
+	at org.openqa.selenium.remote.server.handler.FindElement.call(FindElement.java:47)
+	at org.openqa.selenium.remote.server.handler.FindElement.call(FindElement.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at org.openqa.selenium.remote.server.DefaultSession$1.run(DefaultSession.java:170)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+14:01:57.506 WARN - Exception: no such element
+  (Session info: chrome=47.0.2522.0)
+  (Driver info: chromedriver=2.9.248307,platform=Mac OS X 10.10.5 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 11 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.41.0', revision: '3192d8a', time: '2014-03-27 17:17:32'
+System info: host: 'meng-yang.chiang-MacBook-Air', ip: '172.16.11.51', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.5', java.version: '1.8.0_60'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, chrome={userDataDir=/var/folders/sp/pst9qs5d3gl4pxjpqhfkkh840000gn/T/.org.chromium.Chromium.DsZ5qa}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, version=47.0.2522.0, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 3159d315d1e3fba1e6d88e63e2cee4e5
+14:01:57.581 INFO - Executing: [find element: By.selector: .form-search] at URL: /session/29fe0bd9-5b73-4a74-b597-7dcd8535bc21/element)
+14:01:57.597 INFO - Done: /session/29fe0bd9-5b73-4a74-b597-7dcd8535bc21/element
+14:01:57.600 INFO - Executing: [is displayed: 4 [[ChromeDriver: chrome on MAC (3159d315d1e3fba1e6d88e63e2cee4e5)] -> css selector: .form-search]] at URL: /session/29fe0bd9-5b73-4a74-b597-7dcd8535bc21/element/4/displayed)
+14:01:57.616 INFO - Done: /session/29fe0bd9-5b73-4a74-b597-7dcd8535bc21/element/4/displayed
+14:01:57.622 INFO - Executing: [get window handles] at URL: /session/29fe0bd9-5b73-4a74-b597-7dcd8535bc21/window_handles)
+14:01:57.633 INFO - Done: /session/29fe0bd9-5b73-4a74-b597-7dcd8535bc21/window_handles
+14:01:57.637 INFO - Executing: [switch to window: CDwindow-E52BC2A2-A95C-4896-906D-93F6E4E9012F] at URL: /session/29fe0bd9-5b73-4a74-b597-7dcd8535bc21/window)
+14:01:57.641 INFO - Done: /session/29fe0bd9-5b73-4a74-b597-7dcd8535bc21/window
+14:01:57.643 INFO - Executing: [get page source] at URL: /session/29fe0bd9-5b73-4a74-b597-7dcd8535bc21/source)
+14:01:57.650 INFO - Done: /session/29fe0bd9-5b73-4a74-b597-7dcd8535bc21/source
+14:01:57.654 INFO - Executing: [delete session: 29fe0bd9-5b73-4a74-b597-7dcd8535bc21] at URL: /session/29fe0bd9-5b73-4a74-b597-7dcd8535bc21)
+14:01:58.220 INFO - Done: /session/29fe0bd9-5b73-4a74-b597-7dcd8535bc21
+14:01:58.493 INFO - Checking Resource aliases
+14:01:58.494 INFO - Command request: shutDownSeleniumServer[, ] on session null
+14:01:58.495 INFO - Shutdown command received
+14:01:58.496 INFO - initiating shutdown
+14:01:58.496 INFO - Got result: OK on session null
+14:01:59.001 INFO - Shutting down...

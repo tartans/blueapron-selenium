@@ -1,0 +1,30 @@
+module Formulas
+  class Mobile < Formula
+    class Facility < Formula
+      
+      TASK_INVENTORY_CONTROL     = { css: '[task="InventoryControl"]' }
+      TASK_PACK_LINE             = { css: '[task="PackLine"]' }
+      TASK_CHECKOUT_INVENTORY    = { css: '[task="CheckoutInventory"]' }
+      TASK_QUALITY_CONTROL       = { css: '[task="QaulityControl"]' }
+
+      def initialize(driver)
+        verify_page
+        puts 'abcd'
+      end
+
+      def actionable_tasks()
+        puts 'Inventory Control' + displayed? (TASK_INVENTORY_CONTROL)
+        puts 'Pack Line' + displayed? (TASK_PACK_LINE)
+        puts 'Checkout Inventory' + displayed? (TASK_CHECKOUT_INVENTORY)
+        puts 'Quality Control' + displayed? (TASK_QUALITY_CONTROL)
+      end
+
+      private
+
+        def verify_page
+          title.include?('Blueradish').should == true
+        end
+
+    end # Facility
+  end # Mobile
+end # Formulas

@@ -1,0 +1,592 @@
+[0.802][INFO]: COMMAND InitSession {
+   "desiredCapabilities": {
+      "browserName": "chrome",
+      "chrome.switches": [ "--user-data-dir=/Users/meng-yangchiang/GithubHome/blueapron-selenium/evidence/desktop_login/desktop_login_try_to_mobile_login_and_verify_keypad/chrome", "--enable-logging", "--v=1", "--log-net-log=/Users/meng-yangchiang/GithubHome/blueapron-selenium/evidence/desktop_login/desktop_login_try_to_mobile_login_and_verify_keypad/chrome/net_log.log", "--net-log-level=0" ],
+      "cssSelectorsEnabled": true,
+      "javascriptEnabled": true,
+      "nativeEvents": false,
+      "platform": "ANY",
+      "rotatable": false,
+      "takesScreenshot": false,
+      "version": ""
+   }
+}
+[0.817][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "show_welcome_page": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[0.818][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[0.832][INFO]: Launching chrome: /Applications/Google Chrome.app/Contents/MacOS/Google Chrome --disable-background-networking --disable-client-side-phishing-detection --disable-component-update --disable-default-apps --disable-hang-monitor --disable-prompt-on-repost --disable-sync --disable-web-resources --enable-logging --full-memory-crash-report --ignore-certificate-errors --load-extension=/var/folders/sp/pst9qs5d3gl4pxjpqhfkkh840000gn/T/.org.chromium.Chromium.jZb05t/internal --logging-level=1 --metrics-recording-only --no-first-run --password-store=basic --remote-debugging-port=12203 --safebrowsing-disable-auto-update --safebrowsing-disable-download-protection --use-mock-keychain --user-data-dir=/var/folders/sp/pst9qs5d3gl4pxjpqhfkkh840000gn/T/.org.chromium.Chromium.IsXopy data:,
+[1.845][INFO]: RESPONSE InitSession {
+   "acceptSslCerts": true,
+   "applicationCacheEnabled": false,
+   "browserConnectionEnabled": false,
+   "browserName": "chrome",
+   "chrome": {
+      "userDataDir": "/var/folders/sp/pst9qs5d3gl4pxjpqhfkkh840000gn/T/.org.chromium.Chromium.IsXopy"
+   },
+   "cssSelectorsEnabled": true,
+   "databaseEnabled": false,
+   "handlesAlerts": true,
+   "javascriptEnabled": true,
+   "locationContextEnabled": true,
+   "nativeEvents": true,
+   "platform": "Mac OS X",
+   "rotatable": false,
+   "takesHeapSnapshot": true,
+   "takesScreenshot": true,
+   "version": "47.0.2522.0",
+   "webStorageEnabled": true
+}
+[1.975][INFO]: COMMAND Navigate {
+   "url": "http://localhost:5000/mobile"
+}
+[2.652][INFO]: Waiting for pending navigations...
+[2.653][INFO]: Done waiting for pending navigations
+[4.362][INFO]: Waiting for pending navigations...
+[5.154][INFO]: Done waiting for pending navigations
+[5.154][INFO]: RESPONSE Navigate
+[5.172][INFO]: COMMAND GetTitle {
+
+}
+[5.172][INFO]: Waiting for pending navigations...
+[5.172][INFO]: Done waiting for pending navigations
+[5.182][INFO]: Waiting for pending navigations...
+[5.182][INFO]: Done waiting for pending navigations
+[5.182][INFO]: RESPONSE GetTitle "Blueradish"
+[5.196][INFO]: COMMAND FindElement {
+   "using": "css selector",
+   "value": "[name=\"manager-scan\"]"
+}
+[5.196][INFO]: Waiting for pending navigations...
+[5.196][INFO]: Done waiting for pending navigations
+[5.227][INFO]: Waiting for pending navigations...
+[5.227][INFO]: Done waiting for pending navigations
+[5.227][INFO]: RESPONSE FindElement no such element
+  (Session info: chrome=47.0.2522.0)
+[6.714][INFO]: COMMAND FindElement {
+   "using": "css selector",
+   "value": "[name=\"manager-scan\"]"
+}
+[6.716][INFO]: Waiting for pending navigations...
+[6.716][INFO]: Done waiting for pending navigations
+[6.739][INFO]: Waiting for pending navigations...
+[6.739][INFO]: Done waiting for pending navigations
+[6.739][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.5607671404723078-1"
+}
+[6.782][INFO]: COMMAND IsElementDisplayed {
+   "id": "0.5607671404723078-1"
+}
+[6.782][INFO]: Waiting for pending navigations...
+[6.782][INFO]: Done waiting for pending navigations
+[6.801][INFO]: Waiting for pending navigations...
+[6.801][INFO]: Done waiting for pending navigations
+[6.801][INFO]: RESPONSE IsElementDisplayed true
+[6.807][INFO]: COMMAND FindElement {
+   "using": "css selector",
+   "value": "[name=\"manager-scan\"]"
+}
+[6.807][INFO]: Waiting for pending navigations...
+[6.807][INFO]: Done waiting for pending navigations
+[6.813][INFO]: Waiting for pending navigations...
+[6.813][INFO]: Done waiting for pending navigations
+[6.813][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.5607671404723078-1"
+}
+[6.824][INFO]: COMMAND TypeElement {
+   "id": "0.5607671404723078-1",
+   "value": [ "3635" ]
+}
+[6.824][INFO]: Waiting for pending navigations...
+[6.824][INFO]: Done waiting for pending navigations
+[6.889][INFO]: Waiting for pending navigations...
+[6.889][INFO]: Done waiting for pending navigations
+[6.889][INFO]: RESPONSE TypeElement
+[6.897][INFO]: COMMAND FindElement {
+   "using": "css selector",
+   "value": ".btn"
+}
+[6.897][INFO]: Waiting for pending navigations...
+[6.897][INFO]: Done waiting for pending navigations
+[6.937][INFO]: Waiting for pending navigations...
+[6.937][INFO]: Done waiting for pending navigations
+[6.937][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.5607671404723078-2"
+}
+[6.946][INFO]: COMMAND ClickElement {
+   "id": "0.5607671404723078-2"
+}
+[6.946][INFO]: Waiting for pending navigations...
+[6.946][INFO]: Done waiting for pending navigations
+[6.978][INFO]: Waiting for pending navigations...
+[6.978][INFO]: Done waiting for pending navigations
+[6.978][INFO]: RESPONSE ClickElement
+[6.985][INFO]: COMMAND FindElement {
+   "using": "css selector",
+   "value": "[name=\"employee-scan\"]"
+}
+[6.985][INFO]: Waiting for pending navigations...
+[6.985][INFO]: Done waiting for pending navigations
+[7.032][INFO]: Waiting for pending navigations...
+[7.032][INFO]: Done waiting for pending navigations
+[7.032][INFO]: RESPONSE FindElement no such element
+  (Session info: chrome=47.0.2522.0)
+[7.668][INFO]: COMMAND FindElement {
+   "using": "css selector",
+   "value": "[name=\"employee-scan\"]"
+}
+[7.668][INFO]: Waiting for pending navigations...
+[7.668][INFO]: Done waiting for pending navigations
+[7.688][INFO]: Waiting for pending navigations...
+[7.688][INFO]: Done waiting for pending navigations
+[7.688][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.5607671404723078-3"
+}
+[7.697][INFO]: COMMAND IsElementDisplayed {
+   "id": "0.5607671404723078-3"
+}
+[7.697][INFO]: Waiting for pending navigations...
+[7.697][INFO]: Done waiting for pending navigations
+[7.711][INFO]: Waiting for pending navigations...
+[7.711][INFO]: Done waiting for pending navigations
+[7.711][INFO]: RESPONSE IsElementDisplayed true
+[7.716][INFO]: COMMAND FindElement {
+   "using": "css selector",
+   "value": "[name=\"employee-scan\"]"
+}
+[7.716][INFO]: Waiting for pending navigations...
+[7.716][INFO]: Done waiting for pending navigations
+[7.720][INFO]: Waiting for pending navigations...
+[7.720][INFO]: Done waiting for pending navigations
+[7.720][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.5607671404723078-3"
+}
+[7.728][INFO]: COMMAND TypeElement {
+   "id": "0.5607671404723078-3",
+   "value": [ "3635" ]
+}
+[7.728][INFO]: Waiting for pending navigations...
+[7.728][INFO]: Done waiting for pending navigations
+[7.781][INFO]: Waiting for pending navigations...
+[7.781][INFO]: Done waiting for pending navigations
+[7.781][INFO]: RESPONSE TypeElement
+[7.787][INFO]: COMMAND FindElement {
+   "using": "css selector",
+   "value": ".btn"
+}
+[7.787][INFO]: Waiting for pending navigations...
+[7.787][INFO]: Done waiting for pending navigations
+[7.813][INFO]: Waiting for pending navigations...
+[7.813][INFO]: Done waiting for pending navigations
+[7.813][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.5607671404723078-4"
+}
+[7.823][INFO]: COMMAND IsElementDisplayed {
+   "id": "0.5607671404723078-4"
+}
+[7.823][INFO]: Waiting for pending navigations...
+[7.823][INFO]: Done waiting for pending navigations
+[7.835][INFO]: Waiting for pending navigations...
+[7.835][INFO]: Done waiting for pending navigations
+[7.835][INFO]: RESPONSE IsElementDisplayed true
+[7.840][INFO]: COMMAND FindElement {
+   "using": "css selector",
+   "value": ".btn"
+}
+[7.840][INFO]: Waiting for pending navigations...
+[7.840][INFO]: Done waiting for pending navigations
+[7.848][INFO]: Waiting for pending navigations...
+[7.848][INFO]: Done waiting for pending navigations
+[7.848][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.5607671404723078-4"
+}
+[7.854][INFO]: COMMAND ClickElement {
+   "id": "0.5607671404723078-4"
+}
+[7.854][INFO]: Waiting for pending navigations...
+[7.854][INFO]: Done waiting for pending navigations
+[7.883][INFO]: Waiting for pending navigations...
+[7.883][INFO]: Done waiting for pending navigations
+[7.883][INFO]: RESPONSE ClickElement
+[7.889][INFO]: COMMAND FindElement {
+   "using": "css selector",
+   "value": ".keypad"
+}
+[7.889][INFO]: Waiting for pending navigations...
+[7.889][INFO]: Done waiting for pending navigations
+[7.917][INFO]: Waiting for pending navigations...
+[7.917][INFO]: Done waiting for pending navigations
+[7.917][INFO]: RESPONSE FindElement no such element
+  (Session info: chrome=47.0.2522.0)
+[8.433][INFO]: COMMAND FindElement {
+   "using": "css selector",
+   "value": ".keypad"
+}
+[8.434][INFO]: Waiting for pending navigations...
+[8.434][INFO]: Done waiting for pending navigations
+[8.457][INFO]: Waiting for pending navigations...
+[8.457][INFO]: Done waiting for pending navigations
+[8.457][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.5607671404723078-5"
+}
+[8.465][INFO]: COMMAND IsElementDisplayed {
+   "id": "0.5607671404723078-5"
+}
+[8.465][INFO]: Waiting for pending navigations...
+[8.465][INFO]: Done waiting for pending navigations
+[8.482][INFO]: Waiting for pending navigations...
+[8.482][INFO]: Done waiting for pending navigations
+[8.482][INFO]: RESPONSE IsElementDisplayed true
+[8.491][INFO]: COMMAND FindElement {
+   "using": "css selector",
+   "value": "[data-keypad-key=\"0\"]"
+}
+[8.491][INFO]: Waiting for pending navigations...
+[8.491][INFO]: Done waiting for pending navigations
+[8.505][INFO]: Waiting for pending navigations...
+[8.505][INFO]: Done waiting for pending navigations
+[8.505][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.5607671404723078-6"
+}
+[8.510][INFO]: COMMAND ClickElement {
+   "id": "0.5607671404723078-6"
+}
+[8.510][INFO]: Waiting for pending navigations...
+[8.510][INFO]: Done waiting for pending navigations
+[8.540][INFO]: Waiting for pending navigations...
+[8.540][INFO]: Done waiting for pending navigations
+[8.540][INFO]: RESPONSE ClickElement
+[8.546][INFO]: COMMAND FindElement {
+   "using": "css selector",
+   "value": "[data-keypad-key=\"0\"]"
+}
+[8.546][INFO]: Waiting for pending navigations...
+[8.546][INFO]: Done waiting for pending navigations
+[8.562][INFO]: Waiting for pending navigations...
+[8.562][INFO]: Done waiting for pending navigations
+[8.562][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.5607671404723078-6"
+}
+[8.567][INFO]: COMMAND ClickElement {
+   "id": "0.5607671404723078-6"
+}
+[8.567][INFO]: Waiting for pending navigations...
+[8.567][INFO]: Done waiting for pending navigations
+[8.597][INFO]: Waiting for pending navigations...
+[8.597][INFO]: Done waiting for pending navigations
+[8.597][INFO]: RESPONSE ClickElement
+[8.602][INFO]: COMMAND FindElement {
+   "using": "css selector",
+   "value": "[data-keypad-key=\"0\"]"
+}
+[8.602][INFO]: Waiting for pending navigations...
+[8.602][INFO]: Done waiting for pending navigations
+[8.607][INFO]: Waiting for pending navigations...
+[8.607][INFO]: Done waiting for pending navigations
+[8.607][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.5607671404723078-6"
+}
+[8.614][INFO]: COMMAND ClickElement {
+   "id": "0.5607671404723078-6"
+}
+[8.614][INFO]: Waiting for pending navigations...
+[8.614][INFO]: Done waiting for pending navigations
+[8.629][INFO]: Waiting for pending navigations...
+[8.629][INFO]: Done waiting for pending navigations
+[8.629][INFO]: RESPONSE ClickElement
+[8.634][INFO]: COMMAND FindElement {
+   "using": "css selector",
+   "value": "[data-keypad-key=\"0\"]"
+}
+[8.634][INFO]: Waiting for pending navigations...
+[8.634][INFO]: Done waiting for pending navigations
+[8.639][INFO]: Waiting for pending navigations...
+[8.639][INFO]: Done waiting for pending navigations
+[8.639][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.5607671404723078-6"
+}
+[8.645][INFO]: COMMAND ClickElement {
+   "id": "0.5607671404723078-6"
+}
+[8.645][INFO]: Waiting for pending navigations...
+[8.645][INFO]: Done waiting for pending navigations
+[8.660][INFO]: Waiting for pending navigations...
+[8.660][INFO]: Done waiting for pending navigations
+[8.660][INFO]: RESPONSE ClickElement
+[8.667][INFO]: COMMAND FindElement {
+   "using": "css selector",
+   "value": ".nav__title"
+}
+[8.667][INFO]: Waiting for pending navigations...
+[8.667][INFO]: Done waiting for pending navigations
+[8.691][INFO]: Waiting for pending navigations...
+[8.691][INFO]: Done waiting for pending navigations
+[8.691][INFO]: RESPONSE FindElement no such element
+  (Session info: chrome=47.0.2522.0)
+[9.175][INFO]: COMMAND FindElement {
+   "using": "css selector",
+   "value": ".nav__title"
+}
+[9.175][INFO]: Waiting for pending navigations...
+[9.175][INFO]: Done waiting for pending navigations
+[9.189][INFO]: Waiting for pending navigations...
+[9.189][INFO]: Done waiting for pending navigations
+[9.189][INFO]: RESPONSE FindElement no such element
+  (Session info: chrome=47.0.2522.0)
+[9.636][INFO]: COMMAND FindElement {
+   "using": "css selector",
+   "value": ".nav__title"
+}
+[9.638][INFO]: Waiting for pending navigations...
+[9.638][INFO]: Done waiting for pending navigations
+[9.646][INFO]: Waiting for pending navigations...
+[9.646][INFO]: Done waiting for pending navigations
+[9.646][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.5607671404723078-7"
+}
+[9.652][INFO]: COMMAND IsElementDisplayed {
+   "id": "0.5607671404723078-7"
+}
+[9.652][INFO]: Waiting for pending navigations...
+[9.652][INFO]: Done waiting for pending navigations
+[9.668][INFO]: Waiting for pending navigations...
+[9.668][INFO]: Done waiting for pending navigations
+[9.668][INFO]: RESPONSE IsElementDisplayed true
+[9.673][INFO]: COMMAND FindElement {
+   "using": "css selector",
+   "value": ".nav__title"
+}
+[9.673][INFO]: Waiting for pending navigations...
+[9.673][INFO]: Done waiting for pending navigations
+[9.679][INFO]: Waiting for pending navigations...
+[9.679][INFO]: Done waiting for pending navigations
+[9.679][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.5607671404723078-7"
+}
+[9.685][INFO]: COMMAND GetElementText {
+   "id": "0.5607671404723078-7"
+}
+[9.685][INFO]: Waiting for pending navigations...
+[9.685][INFO]: Done waiting for pending navigations
+[9.705][INFO]: Waiting for pending navigations...
+[9.705][INFO]: Done waiting for pending navigations
+[9.705][INFO]: RESPONSE GetElementText "Facilities"
+[9.714][INFO]: COMMAND Navigate {
+   "url": "http://localhost:5000/mobile/facilities/2"
+}
+[9.714][INFO]: Waiting for pending navigations...
+[9.714][INFO]: Done waiting for pending navigations
+[9.718][INFO]: Waiting for pending navigations...
+[10.406][INFO]: Done waiting for pending navigations
+[10.406][INFO]: RESPONSE Navigate
+[10.419][INFO]: COMMAND FindElement {
+   "using": "css selector",
+   "value": ".nav__title"
+}
+[10.419][INFO]: Waiting for pending navigations...
+[10.419][INFO]: Done waiting for pending navigations
+[10.429][INFO]: Waiting for pending navigations...
+[10.429][INFO]: Done waiting for pending navigations
+[10.429][INFO]: RESPONSE FindElement no such element
+  (Session info: chrome=47.0.2522.0)
+[10.884][INFO]: COMMAND FindElement {
+   "using": "css selector",
+   "value": ".nav__title"
+}
+[10.884][INFO]: Waiting for pending navigations...
+[10.884][INFO]: Done waiting for pending navigations
+[10.908][INFO]: Waiting for pending navigations...
+[10.908][INFO]: Done waiting for pending navigations
+[10.908][INFO]: RESPONSE FindElement no such element
+  (Session info: chrome=47.0.2522.0)
+[11.365][INFO]: COMMAND FindElement {
+   "using": "css selector",
+   "value": ".nav__title"
+}
+[11.367][INFO]: Waiting for pending navigations...
+[11.367][INFO]: Done waiting for pending navigations
+[11.377][INFO]: Waiting for pending navigations...
+[11.377][INFO]: Done waiting for pending navigations
+[11.377][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.24565409938804805-1"
+}
+[11.385][INFO]: COMMAND IsElementDisplayed {
+   "id": "0.24565409938804805-1"
+}
+[11.385][INFO]: Waiting for pending navigations...
+[11.385][INFO]: Done waiting for pending navigations
+[11.402][INFO]: Waiting for pending navigations...
+[11.402][INFO]: Done waiting for pending navigations
+[11.402][INFO]: RESPONSE IsElementDisplayed true
+[11.407][INFO]: COMMAND FindElement {
+   "using": "css selector",
+   "value": ".nav__title"
+}
+[11.407][INFO]: Waiting for pending navigations...
+[11.407][INFO]: Done waiting for pending navigations
+[11.411][INFO]: Waiting for pending navigations...
+[11.411][INFO]: Done waiting for pending navigations
+[11.412][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.24565409938804805-1"
+}
+[11.417][INFO]: COMMAND GetElementText {
+   "id": "0.24565409938804805-1"
+}
+[11.417][INFO]: Waiting for pending navigations...
+[11.417][INFO]: Done waiting for pending navigations
+[11.433][INFO]: Waiting for pending navigations...
+[11.433][INFO]: Done waiting for pending navigations
+[11.433][INFO]: RESPONSE GetElementText "Richmond"
+[11.438][INFO]: COMMAND FindElement {
+   "using": "css selector",
+   "value": "[data-role=\"inventory-control\"]"
+}
+[11.438][INFO]: Waiting for pending navigations...
+[11.438][INFO]: Done waiting for pending navigations
+[11.451][INFO]: Waiting for pending navigations...
+[11.451][INFO]: Done waiting for pending navigations
+[11.451][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.24565409938804805-2"
+}
+[11.455][INFO]: COMMAND IsElementDisplayed {
+   "id": "0.24565409938804805-2"
+}
+[11.455][INFO]: Waiting for pending navigations...
+[11.455][INFO]: Done waiting for pending navigations
+[11.467][INFO]: Waiting for pending navigations...
+[11.467][INFO]: Done waiting for pending navigations
+[11.467][INFO]: RESPONSE IsElementDisplayed true
+[11.476][INFO]: COMMAND FindElement {
+   "using": "css selector",
+   "value": "[data-role=\"pack-line\"]"
+}
+[11.476][INFO]: Waiting for pending navigations...
+[11.476][INFO]: Done waiting for pending navigations
+[11.489][INFO]: Waiting for pending navigations...
+[11.489][INFO]: Done waiting for pending navigations
+[11.489][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.24565409938804805-3"
+}
+[11.494][INFO]: COMMAND IsElementDisplayed {
+   "id": "0.24565409938804805-3"
+}
+[11.494][INFO]: Waiting for pending navigations...
+[11.494][INFO]: Done waiting for pending navigations
+[11.506][INFO]: Waiting for pending navigations...
+[11.506][INFO]: Done waiting for pending navigations
+[11.506][INFO]: RESPONSE IsElementDisplayed true
+[11.512][INFO]: COMMAND FindElement {
+   "using": "css selector",
+   "value": "[data-role=\"checkout-inventory\"]"
+}
+[11.512][INFO]: Waiting for pending navigations...
+[11.512][INFO]: Done waiting for pending navigations
+[11.523][INFO]: Waiting for pending navigations...
+[11.523][INFO]: Done waiting for pending navigations
+[11.523][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.24565409938804805-4"
+}
+[11.533][INFO]: COMMAND IsElementDisplayed {
+   "id": "0.24565409938804805-4"
+}
+[11.533][INFO]: Waiting for pending navigations...
+[11.533][INFO]: Done waiting for pending navigations
+[11.544][INFO]: Waiting for pending navigations...
+[11.544][INFO]: Done waiting for pending navigations
+[11.544][INFO]: RESPONSE IsElementDisplayed true
+[11.549][INFO]: COMMAND FindElement {
+   "using": "css selector",
+   "value": "[data-role=\"quality-control\"]"
+}
+[11.549][INFO]: Waiting for pending navigations...
+[11.549][INFO]: Done waiting for pending navigations
+[11.560][INFO]: Waiting for pending navigations...
+[11.561][INFO]: Done waiting for pending navigations
+[11.561][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.24565409938804805-5"
+}
+[11.565][INFO]: COMMAND IsElementDisplayed {
+   "id": "0.24565409938804805-5"
+}
+[11.565][INFO]: Waiting for pending navigations...
+[11.565][INFO]: Done waiting for pending navigations
+[11.582][INFO]: Waiting for pending navigations...
+[11.582][INFO]: Done waiting for pending navigations
+[11.582][INFO]: RESPONSE IsElementDisplayed true
+[11.587][INFO]: COMMAND GetWindows {
+
+}
+[11.588][INFO]: RESPONSE GetWindows [ "CDwindow-81CFC285-132C-4BA1-9266-ED1258BF2E95" ]
+[11.599][INFO]: COMMAND SwitchToWindow {
+   "name": "CDwindow-81CFC285-132C-4BA1-9266-ED1258BF2E95"
+}
+[11.602][INFO]: RESPONSE SwitchToWindow
+[11.607][INFO]: COMMAND GetSource {
+
+}
+[11.607][INFO]: Waiting for pending navigations...
+[11.607][INFO]: Done waiting for pending navigations
+[11.610][INFO]: Waiting for pending navigations...
+[11.610][INFO]: Done waiting for pending navigations
+[11.610][INFO]: RESPONSE GetSource "\u003C!DOCTYPE html>\u003Chtml xmlns=\"http://www.w3.org/1999/xhtml\">\u003Chead>\n    \u003Cmeta charset=\"utf-8\" />\n    \u003Cmeta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\" />\n    \u003Ctitle>Blueradish\u003C/title>\n    \u003Cmeta nam..."
+[11.620][INFO]: COMMAND Quit {
+
+}
+[11.673][INFO]: RESPONSE Quit
