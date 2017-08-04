@@ -2,8 +2,7 @@
 
 # This is where you can define generic helper functions
 # that are inhereted by your formulas.
-# The ones below are borrowed from:
-# http://elemental-selenium.com/tips/9-use-a-base-page-object
+# The definitions below are written on top of: http://elemental-selenium.com/tips/9-use-a-base-page-object
 
 require 'logging'
 
