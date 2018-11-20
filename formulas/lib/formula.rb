@@ -1,7 +1,7 @@
 # Encoding: utf-8
 
 # This is where you can define generic helper functions
-# that are inhereted by your formulas.
+# that are inherited by your formulas.
 # The definitions below are written on top of: http://elemental-selenium.com/tips/9-use-a-base-page-object
 
 require 'logging'
